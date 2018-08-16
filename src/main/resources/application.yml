@@ -1,0 +1,10 @@
+spring:
+  port: 8090
+  application:
+      name: demo
+  ###################### mysql ###########################
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.102.128:3306/demo?allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&useSSL=false&useAffectedRows=true
+    username: root
+    password: ming
